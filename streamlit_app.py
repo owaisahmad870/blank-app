@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 # Load the dataset
 @st.cache_data
 def load_data():
-data = pd.read_csv('Weather_Grid_Model.csv')
+    data = pd.read_csv('Weather_Grid_Model.csv')
     return data
 
 data = load_data()

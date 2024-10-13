@@ -8,6 +8,8 @@ from sklearn.metrics import mean_squared_error, r2_score, accuracy_score
 import matplotlib.pyplot as plt
 import seaborn as sns
 from itertools import product
+import matplotlib.pyplot as plt
+
 
 # Load the dataset
 @st.cache_data
